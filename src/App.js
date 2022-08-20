@@ -1,10 +1,17 @@
+import styles from './App.module.css';
+import './assets/fonts/openSans.css';
+
 
 function App() {
   return (
     <>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <div id="scroll-body-container">
+      <header>
+        <nav></nav>
+      </header>
+      <main></main>
+      <footer></footer>
+    </div>
     </>
   );
 }
