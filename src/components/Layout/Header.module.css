@@ -1,0 +1,19 @@
+.header-badge{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-image {
+  height: 100%;
+  text-align: right;
+}
+.header-image img{
+  width: 80%;
+}
+.header-text{
+
+}
+.header-text h1{
+  font: bold 39px 'Open Sans', sans-serif;
+  color: rgb(0,25,76);
+}
