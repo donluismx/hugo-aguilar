@@ -1,6 +1,7 @@
 import gcss from './App.module.css';
 import './assets/fonts/openSans.css';
-import Alcance from './components/Layout/Alcance';
+import Alcance from './components/Alcance';
+//import Alcance from './components/Layout/Alcance';
 import Header from './components/Layout/Header';
 
 
