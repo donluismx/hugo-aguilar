@@ -1,0 +1,10 @@
+.logo-badge{
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.logo-text h2{
+  letter-spacing: 0.17em;
+}
