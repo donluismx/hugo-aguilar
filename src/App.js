@@ -1,4 +1,4 @@
-import gcss from './App.module.css';
+import styles from './App.module.css';
 import './assets/fonts/openSans.css';
 import Header from './components/Layout/Header';
 import Alcance from './components/Alcance';
@@ -18,22 +18,22 @@ function App() {
         <Header />
       </header>
       <main>
-        <section id="alcance">
+        <section className={styles.mainSections} id="alcance">
           <Alcance />
         </section>
-        <section id="resumen">
+        <section className={styles.mainSections} id="resumen">
           <Resumen />
         </section>
-        <section id="tipos">
+        <section className={styles.mainSections} id="tipos">
           <Tipos />
         </section>
-        <section id="fases">
+        <section className={styles.mainSections} id="fases">
           <Fases />
         </section>
-        <section id="experiencia">
+        <section className={styles.mainSections} id="experiencia">
           <Experiencia />
         </section>
-        <section id="reflexion">
+        <section className={styles.mainSections} id="reflexion">
           <Reflexion />
         </section>
       </main>
