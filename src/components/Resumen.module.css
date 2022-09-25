@@ -10,8 +10,25 @@
   margin-right: 100px;
 }
 
-.ul{
+.ul1{
   font-size: 16px;
+}
+.ul2{
+  list-style-type: none;
+}
+.ul2 li{
+  margin-top: 20px;
+}
+.ul2 li h2{
+  display: inline;
+}
+.ul2 li::before{
+  width: 1.2em;
+  scale: 2;
+  content: '•';
+  display: inline-block;
+  margin-left: -1em;
+  color: #ebb200;
 }
 .overlay{
   padding: 5px;
